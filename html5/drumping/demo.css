@@ -1,0 +1,34 @@
+/* css reset 重置*/
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%; /*注意 设置body的高度为全屏  默认不为全屏*/
+}
+html{
+    font-size: 10px;/* fz10  */
+    background:url(./background.jpg) bottom center;
+    background-size: cover;/* 超出则剪裁使背景与盒子大小相同*/
+}
+
+.keys{
+    height: 100%;
+    display: flex;/*弹性布局*/
+    align-items: center;
+    justify-content: center;/*水平居中*/
+    /* background-color: aqua;设置盒子背景颜色  测试使用 */
+}
+ 
+.key{
+    border: .4rm solid black;
+    border-radius:  .5rm;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem 0.5rem;
+    width: 10rem;
+    text-align: center;
+    color: white;
+    background: rgb(0,0,0,0.4);
+
+}
