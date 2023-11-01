@@ -48,3 +48,5 @@
         将指针回调 ^的数量表示回退的次数 herd表示强制
     git reset --herd id 可以去到指定的版本
 -git reflog 打印所有操作记录
+
+-changes + untracked 
