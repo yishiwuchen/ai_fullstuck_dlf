@@ -8,3 +8,6 @@
     .ipynb notbook
 -pipeline 核心模块，启动模块
     水管子
+
+-pipeline(task,mode)
+    遥遥领先，中文模型
