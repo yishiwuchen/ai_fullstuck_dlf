@@ -1,0 +1,11 @@
+/* 样式的重置 */
+image{
+    /* 图片自适应 */
+    display:block;
+    width:100%;
+}
+/* css 继承 inherit*/
+page{
+    line-height:1.5;
+    font-size:32rpx;
+}
